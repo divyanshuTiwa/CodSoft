@@ -1,0 +1,83 @@
+:root{
+    --btn:gold;
+    --ac:red;
+    --bg1:yellow;
+    --bg2:rgb(0, 255, 0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px 5px;
+    width: 370px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,var(--bg1),var(--bg2));
+}
+
+h1{
+    /* text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    margin: 0; */
+    margin: 0;
+    font-family: cursive;
+    font-size: 40px;
+}
+
+.button{
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+    padding: 5px;
+    font-size: 40px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: -3px 3px 2px gray,
+    -3px 3px 4px gray,
+    -3px 3px 6px gray,
+    -3px 3px 8px gray;
+}
+
+.input{
+    width: 285px;
+    height: 40px;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-bottom: 15px;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    box-shadow: -3px 3px 2px gray,
+    -3px 3px 4px gray,
+    -3px 3px 6px gray,
+    -3px 3px 8px gray;
+}
+
+.btn{
+    background-color: var(--btn);
+}
+
+.ac{
+    background-color: var(--ac);
+    color: white;
+}
+
+footer{
+    font-size: x-large;
+    font-weight: 700;
+}
